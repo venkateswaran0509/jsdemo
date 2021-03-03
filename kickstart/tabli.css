@@ -1,0 +1,55 @@
+body
+{
+  font-family: 'Times New Roman', Times, serif ;
+ margin-left:85px;
+}
+
+
+h1
+{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.navcolor
+{
+	 background-color: #0033A0;
+}
+.activ
+{
+	background-color: #0033A0;
+}
+
+.mar
+{
+	margin-left:85px;
+}
+#tables
+{
+  margin-right: 22px;
+}
+
+.head {
+  
+    text-align: center;
+    background-color: #0033A0;
+    color: white;
+    font-size:14px;
+    font-weight: Regular;
+}
+
+
+td{
+  background-color: lightgray;
+  text-align: center;
+}
+
+.row{
+  background-color: blue;
+}
+
+
+
+
+  

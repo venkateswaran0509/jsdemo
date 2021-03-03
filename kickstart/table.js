@@ -1,0 +1,1 @@
+document.write("THis is my first javasccript program")
