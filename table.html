@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Responsive tables</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="table.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="sortable.js"></script>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse navcolor ">
+        <div>
+            <h1>SORTING TABLE</h1>
+
+        </div>
+
+    </nav>
+
+
+
+
+
+
+    <table id="Table" class="table table-bordered tables">
+
+
+
+        <tr>
+
+            <th role="button" onclick="sortTable(0)">S.NO</th>
+            <th role="button" onclick="sortTable(1)">NAME</th>
+            <th role="button" onclick="sortTableDate(2)">D O B</th>
+            <th>GENDER</th>
+            <th role="button" onclick="sortTable(4)">AGE</th>
+        </tr>
+
+        <tr>
+
+            <td>1</td>
+            <td>jack</td>
+            <td data-type="date">04/03/2008</td>
+            <td>Male</td>
+            <td>13</td>
+        </tr>
+
+        <tr>
+
+            <td>2</td>
+            <td>reshmi</td>
+            <td data-type="date">08/15/1998</td>
+            <td>Female</td>
+            <td>23</td>
+        </tr>
+
+        <tr>
+
+            <td>3</td>
+            <td>zara</td>
+            <td data-type="date">07/16/1998</td>
+            <td>Female</td>
+            <td>30</td>
+
+        </tr>
+
+        <tr>
+
+            <td>4</td>
+            <td>Zare</td>
+            <td id="date">06/13/1968</td>
+            <script>
+                let M = document.getElementById("date").innerHTML.value;
+                console.log(M);
+
+            </script>
+            <td>Male</td>
+            <td>35</td>
+        </tr>
+        <tr>
+
+            <td>5</td>
+            <td>britto</td>
+            <td data-type="date">06/18/2001</td>
+            <td>Male</td>
+            <td>20</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body
+{
+  font-family: 'Times New Roman', Times, serif ;
+  margin-left:150px;
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  color:aliceblue;
+}
+
+.navcolor
+{
+	 background-color: #0033A0;
+}
+.activ
+{
+	background-color: #0033A0;
+}
+
+.mar
+{
+	margin-left:85px;
+}
+
+
+th {
+  
+    text-align: center;
+    background-color: #0033A0;
+    color: white;
+    font-size:14px;
+    font-weight: Regular;
+}
+
+
+td{
+  background-color: lightgray;
+  text-align: center;
+}
+
+.row{
+  background-color: blue;
+}
+
+option{
+  color:black;
+}
+.select
+{
+  color: rgb(73, 71, 71);
+}
+
+
+
+  
